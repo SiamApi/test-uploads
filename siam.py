@@ -252,7 +252,7 @@ while True:
             print(f'[SUCCESS-NAME:{user}]')
             listck.append(f'{cookiefb}i_user={idpro5};|{p}>{user}')
         except:quit('Cookies Wrong')
-lc=str(input('1-Emotions\nChoose: '))
+lc=str(input('1-Emotions | split with\nChoose: '))
 delay=int(input('DELAY: '))
 for t in lc.split('+'):
     if t=='1':listjob.append('cx')
@@ -311,4 +311,3 @@ while True:
                     print(f'[{dem}][{time}][{type}][400][{xu}][{soac}]')
                     idelay(delay)
         except:pass
-1
